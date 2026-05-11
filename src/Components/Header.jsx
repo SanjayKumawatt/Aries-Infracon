@@ -25,15 +25,15 @@ const Header = () => {
 
           {/* Logo Section - EXACT MCA NAME */}
           <Link to="/" className="flex  items-center gap-1 ">
-            <img src={logo} className='h-16' alt="" />
-            <div className='flex flex-col mt-3'>
+            <img src={logo} className='h-12' alt="" />
+            {/* <div className='flex flex-col mt-3'>
               <span className="text-2xl font-extrabold text-[#1d4ed8] tracking-tight leading-none uppercase">
                 ARIES INFRACON
               </span>
               <span className="text-[10px] font-semibold text-[#60a5fa] tracking-widest uppercase leading-tight mt-1">
                 Private Limited
               </span>
-            </div>
+            </div> */}
           </Link>
 
           {/* Desktop Navigation - Centered as per screenshot */}

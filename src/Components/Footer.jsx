@@ -13,11 +13,11 @@ const Footer = () => {
 
           {/* Column 1: Company Identity - EXACT MCA NAME */}
           <div className="space-y-6">
-            <div className="flex items-center gap-1">
+            <div className="flex items-center gap-2">
 
-              <img src={logo} className='h-16' alt="" />
-              <div className='flex flex-col mt-3'>
-                <span className="text-2xl font-extrabold text-white tracking-tight leading-none uppercase">
+              <img src={logo} className='h-10' alt="" />
+              <div className='flex flex-col '>
+                <span className="text-xl font-extrabold text-white tracking-tight leading-none uppercase">
                   ARIES INFRACON
                 </span>
                 <span className="text-[10px] font-semibold text-blue-400 tracking-[0.3em] uppercase mt-2">
